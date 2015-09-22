@@ -7,10 +7,13 @@
 #include <math.h>
 
 #include "wfxType.h"
+#include "wfxTime.h"
 #include "wfxMath.h"
 #include "wfxLink.h"
 #include "wfxList.h"
 #include "wfxHash.h"
+#include "wfxHeap.h"
+#include "wfxSort.h"
 #include "wfxArray.h"
 #include "wfxString.h"
 

@@ -66,6 +66,9 @@
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
+		D5DB88C01BB14910007B1E8E /* wfxMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB88BD1BB14910007B1E8E /* wfxMath.cpp */; settings = {ASSET_TAGS = (); }; };
+		D5DB88C11BB14910007B1E8E /* wfxString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB88BE1BB14910007B1E8E /* wfxString.cpp */; settings = {ASSET_TAGS = (); }; };
+		D5DB88C21BB14910007B1E8E /* wfxTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB88BF1BB14910007B1E8E /* wfxTime.cpp */; settings = {ASSET_TAGS = (); }; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
 		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
 		ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7D1B68A1FA00C3958E /* libiconv.dylib */; };
@@ -160,6 +163,18 @@
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D5DB88B41BB14910007B1E8E /* wfxBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfxBasic.h; path = wfxBasic/wfxBasic.h; sourceTree = "<group>"; };
+		D5DB88B51BB14910007B1E8E /* wfxLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfxLink.h; path = wfxBasic/wfxLink.h; sourceTree = "<group>"; };
+		D5DB88B61BB14910007B1E8E /* wfxTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfxTime.h; path = wfxBasic/wfxTime.h; sourceTree = "<group>"; };
+		D5DB88B71BB14910007B1E8E /* wfxString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfxString.h; path = wfxBasic/wfxString.h; sourceTree = "<group>"; };
+		D5DB88B81BB14910007B1E8E /* wfxArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfxArray.h; path = wfxBasic/wfxArray.h; sourceTree = "<group>"; };
+		D5DB88B91BB14910007B1E8E /* wfxHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfxHash.h; path = wfxBasic/wfxHash.h; sourceTree = "<group>"; };
+		D5DB88BA1BB14910007B1E8E /* wfxList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfxList.h; path = wfxBasic/wfxList.h; sourceTree = "<group>"; };
+		D5DB88BB1BB14910007B1E8E /* wfxMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfxMath.h; path = wfxBasic/wfxMath.h; sourceTree = "<group>"; };
+		D5DB88BC1BB14910007B1E8E /* wfxType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfxType.h; path = wfxBasic/wfxType.h; sourceTree = "<group>"; };
+		D5DB88BD1BB14910007B1E8E /* wfxMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wfxMath.cpp; path = wfxBasic/wfxMath.cpp; sourceTree = "<group>"; };
+		D5DB88BE1BB14910007B1E8E /* wfxString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wfxString.cpp; path = wfxBasic/wfxString.cpp; sourceTree = "<group>"; };
+		D5DB88BF1BB14910007B1E8E /* wfxTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wfxTime.cpp; path = wfxBasic/wfxTime.cpp; sourceTree = "<group>"; };
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		ED545A7B1B68A1F400C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		ED545A7D1B68A1FA00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
@@ -297,6 +312,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D5DB88B31BB148F3007B1E8E /* wfxBasic */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -352,6 +368,25 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		D5DB88B31BB148F3007B1E8E /* wfxBasic */ = {
+			isa = PBXGroup;
+			children = (
+				D5DB88B41BB14910007B1E8E /* wfxBasic.h */,
+				D5DB88B51BB14910007B1E8E /* wfxLink.h */,
+				D5DB88B61BB14910007B1E8E /* wfxTime.h */,
+				D5DB88B71BB14910007B1E8E /* wfxString.h */,
+				D5DB88B81BB14910007B1E8E /* wfxArray.h */,
+				D5DB88B91BB14910007B1E8E /* wfxHash.h */,
+				D5DB88BA1BB14910007B1E8E /* wfxList.h */,
+				D5DB88BB1BB14910007B1E8E /* wfxMath.h */,
+				D5DB88BC1BB14910007B1E8E /* wfxType.h */,
+				D5DB88BD1BB14910007B1E8E /* wfxMath.cpp */,
+				D5DB88BE1BB14910007B1E8E /* wfxString.cpp */,
+				D5DB88BF1BB14910007B1E8E /* wfxTime.cpp */,
+			);
+			name = wfxBasic;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -494,9 +529,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DB88C21BB14910007B1E8E /* wfxTime.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				D5DB88C01BB14910007B1E8E /* wfxMath.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				D5DB88C11BB14910007B1E8E /* wfxString.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);

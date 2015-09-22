@@ -51,6 +51,8 @@ bool HelloWorld::init()
     /////////////////////////////
     // 3. add your codes below...
 
+#if 0
+    
     // add a label shows "Hello World"
     // create and initialize a label
     
@@ -71,6 +73,11 @@ bool HelloWorld::init()
 
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
+
+#endif
+    
+    wfxSint32 valueS32 = 0;
+    wfxUint32 valueU32 = 129;
     
     return true;
 }

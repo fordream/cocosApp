@@ -3,7 +3,13 @@
 
 
 class wfxString {
+
+	char*		mpString;		///<
+
 public:
+	wfxString( void );
+	~wfxString( void );
+
 	
 };
 

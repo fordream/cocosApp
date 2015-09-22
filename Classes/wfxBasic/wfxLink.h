@@ -3,8 +3,10 @@
 
 
 class wfxLink {
-	wfxLink*	mpPrevLink;
-	wfxLink*	mpNextLink;
+
+	wfxLink*	mpPrevLink;		///<
+	wfxLink*	mpNextLink;		///<
+
 public:
 	wfxLink( void ) {
 	}
